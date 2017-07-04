@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codetride.kezquizzy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".player" />
+        <activity android:name=".team" />
+        <activity android:name=".Ronaldo" />
+        <activity android:name=".Messi" />
+        <activity android:name=".Rooney" />
+        <activity android:name=".Zlatan" />
+        <activity android:name=".RonaldoQuiz" />
+        <activity android:name=".MessiQuiz" />
+        <activity android:name=".RooneyQuiz" />
+        <activity android:name=".ZlatanQuiz" />
+        <activity android:name=".Results" />
+        <activity android:name=".SundownsQuiz" />
+        <activity android:name=".PSL" />
+        <activity android:name=".Manchester" />
+        <activity android:name=".Lost"></activity>
+    </application>
+
+</manifest>
